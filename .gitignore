@@ -1,0 +1,23 @@
+# Secrets — never commit
+config/api_keys.json
+config/.spotify_cache
+config/certs/*.key
+config/certs/*.crt
+memory/long_term.json
+
+# Generated / downloaded at runtime
+config/wake_models/
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
